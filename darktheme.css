@@ -37,14 +37,13 @@
     background-color: #151515;
   }
   
-  .dark .text-body {
+  .dark .nav-link {
     color: white!important;
   }
-
-  .dark .text-body:hover {
-    color: green!important;
+  
+  .dark .read {
+    color: white;
   }
-
 
   .dark {
     color: white;
@@ -109,10 +108,10 @@
 
   /* testimonials */
 
-.dark #testimonials {
+.dark #feedback {
     background-color: #222;
 }
 
-.dark .testimonial {
+.dark .feedback__item {
     background-color: #151515!important;
 }
