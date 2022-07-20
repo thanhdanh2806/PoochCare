@@ -1,0 +1,117 @@
+#switchButton i {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+  #myBody{
+    background-color:white;
+  }
+  #switchButton {
+    background-color: white;
+    width: 0;
+    height: 10px;
+  }
+  #switchButton .fa-sun {
+    display: none;
+  }
+  #switchButton .fa-moon {
+    display: block;
+  }
+  
+  /* Dark Theme*/
+  .dark#myBody{
+    background-color:#151515;
+  }
+  .dark #switchButton {
+    background-color: #151515;
+  }
+  .dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+  }
+  
+  .dark #switchButton .fa-moon {
+    display: none;
+  }
+  
+  .dark header{
+    background-color: #151515;
+  }
+  
+  .dark .nav-link {
+    color: white!important;
+  }
+  
+  .dark .read {
+    color: white;
+  }
+
+  .dark {
+    color: white;
+  }
+
+  .dark .dropdown-menu {
+    background-color: #151515 ;
+  }
+
+  .dark .dropdown-item {
+    color: white;
+    background-color: #151515;
+  }
+
+/* grids */
+
+
+.dark .bottom-ab-left .text-body {
+    color: white;
+}
+
+/* bottom grids */
+
+.dark .w3l-features {
+    background-color: #222;
+}
+
+.dark .area-box {
+    background-color: #151515;
+}
+
+.dark .area-box:hover {
+    background-color: #222;
+}
+
+.dark .area-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.dark .area-box a:hover {
+    color: green;
+}
+
+/* service */
+
+.dark .cont-4 li {
+    color: white!important;
+}
+
+
+
+
+.dark .w3l-pricing-7-main {
+    background-color: #222!important;
+}
+
+.dark  .pricing-gd-left {
+    background-color: #151515;
+  }
+  
+
+  /* testimonials */
+
+.dark #feedback {
+    background-color: #222;
+}
+
+.dark .feedback__item {
+    background-color: #151515!important;
+}
